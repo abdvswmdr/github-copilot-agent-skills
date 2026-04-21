@@ -14,4 +14,3 @@ dependencies:
   - abdvswmdr/github-copilot-agent-skills/packages/terraform
   - abdvswmdr/github-copilot-agent-skills/packages/diagramming
   - abdvswmdr/github-copilot-agent-skills/packages/productivity
-  - abdvswmdr/github-copilot-agent-skills
