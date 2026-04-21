@@ -1,24 +1,31 @@
 lockfile_version: '1'
-generated_at: '2026-04-21T19:22:27.505800+00:00'
+generated_at: '2026-04-21T19:28:04.452691+00:00'
 apm_version: 0.8.12
 dependencies:
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: packages/architect
   is_virtual: true
   package_type: apm_package
   content_hash: sha256:467e254234fe5a94730fa65e9456cdc17036c6a26f6816069001a310663de96e
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: packages/diagramming
   is_virtual: true
   package_type: apm_package
   content_hash: sha256:dc2a2643a69788ddd67a9f5bc155a78d45232c5b6e4bcc56ee3125020c5330e7
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
+  virtual_path: packages/productivity
+  is_virtual: true
+  package_type: apm_package
+  content_hash: sha256:2dc4ce7ba67518f41388f2aab0bf428f35c1073971bedfbc0a045b06011b969e
+- repo_url: abdvswmdr/github-copilot-agent-skills
+  host: github.com
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: packages/terraform
   is_virtual: true
   package_type: apm_package
@@ -53,7 +60,7 @@ dependencies:
   content_hash: sha256:e9956719431d062d6a8fe0c089575e340b56ca17329f5d4694f8d95dde0a9c06
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: .github/skills/architecture-design
   is_virtual: true
   depth: 2
@@ -64,7 +71,7 @@ dependencies:
   content_hash: sha256:1f054f32395cf9339eb591275d7e6a248de4d99a8446c5515b015008a663e866
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: .github/skills/azure-drawio-mcp-diagramming
   is_virtual: true
   depth: 2
@@ -75,7 +82,7 @@ dependencies:
   content_hash: sha256:df9de73f3c3a6028edddaf7e73bdb175543c3a660d68dc2cfd988b62fc7b51a7
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: .github/skills/azure-pricing
   is_virtual: true
   depth: 2
@@ -86,7 +93,7 @@ dependencies:
   content_hash: sha256:cb80f24d8783be78e3b98c91d0bb2cb0fd8fb107d40e7dddc0d6657d6acf66eb
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: .github/skills/drawio-mcp-diagramming
   is_virtual: true
   depth: 2
@@ -97,7 +104,7 @@ dependencies:
   content_hash: sha256:9188b5f1b9d32c060ccdf8017ddcc5964afb155dc5589b537346f5d9202aec89
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: .github/skills/excalidraw-mcp-diagramming
   is_virtual: true
   depth: 2
@@ -108,7 +115,7 @@ dependencies:
   content_hash: sha256:46d546b18d83e1bd916cfabef6768762ad5708841ddc8872259ad23f5d14f5e5
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: .github/skills/gh-aw-operations
   is_virtual: true
   depth: 2
@@ -119,7 +126,7 @@ dependencies:
   content_hash: sha256:ba9310e0c7fed3742ea579e7062afdaf20f51dba676d6d0ed053d8abd081cd77
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: .github/skills/terraform-provider-upgrade
   is_virtual: true
   depth: 2
@@ -130,7 +137,7 @@ dependencies:
   content_hash: sha256:7b966268ed81c3344ca5f285e7aaa8777b38cb688b3c7780b08166f22efb08ef
 - repo_url: abdvswmdr/github-copilot-agent-skills
   host: github.com
-  resolved_commit: de1afab066097df7edb3d865929523b60b697f9f
+  resolved_commit: c96249de73ada61529c7ee8a8e1d328f3673ce57
   virtual_path: .github/skills/waf-assessment
   is_virtual: true
   depth: 2
