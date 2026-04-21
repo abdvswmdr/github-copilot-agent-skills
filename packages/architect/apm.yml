@@ -3,15 +3,15 @@ version: 1.0.0
 description: >
   Azure architecture design, WAF/CAF assessment, and pricing skills and agent
   for GitHub Copilot.
-author: thomast1906
+author: abdvswmdr
 license: MIT
 target: vscode
 
 dependencies:
   apm:
     # Agents
-    - thomast1906/github-copilot-agent-skills/.github/agents/azure-architect.agent.md
+    - abdvswmdr/github-copilot-agent-skills/.github/agents/azure-architect.agent.md
     # Skills
-    - thomast1906/github-copilot-agent-skills/.github/skills/architecture-design
-    - thomast1906/github-copilot-agent-skills/.github/skills/waf-assessment
-    - thomast1906/github-copilot-agent-skills/.github/skills/azure-pricing
+    - abdvswmdr/github-copilot-agent-skills/.github/skills/architecture-design
+    - abdvswmdr/github-copilot-agent-skills/.github/skills/waf-assessment
+    - abdvswmdr/github-copilot-agent-skills/.github/skills/azure-pricing

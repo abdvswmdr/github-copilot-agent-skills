@@ -1,0 +1,13 @@
+name: productivity-skills
+version: 1.0.0
+description: >
+  Personal productivity helpers for GitHub Copilot, including Org Agenda
+  Capture output for Emacs org-mode workflows.
+author: abdvswmdr
+license: MIT
+target: vscode
+
+dependencies:
+  apm:
+    # Agents
+    - abdvswmdr/github-copilot-agent-skills/.github/agents/org-agenda-capture.agent.md

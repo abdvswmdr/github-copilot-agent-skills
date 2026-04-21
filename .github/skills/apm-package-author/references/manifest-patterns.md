@@ -46,11 +46,11 @@ target: vscode
 dependencies:
   apm:
     # Agents
-    - thomast1906/github-copilot-agent-skills/.github/agents/azure-architect.agent.md
+    - abdvswmdr/github-copilot-agent-skills/.github/agents/azure-architect.agent.md
     # Skills
-    - thomast1906/github-copilot-agent-skills/.github/skills/architecture-design
-    - thomast1906/github-copilot-agent-skills/.github/skills/waf-assessment
-    - thomast1906/github-copilot-agent-skills/.github/skills/azure-pricing
+    - abdvswmdr/github-copilot-agent-skills/.github/skills/architecture-design
+    - abdvswmdr/github-copilot-agent-skills/.github/skills/waf-assessment
+    - abdvswmdr/github-copilot-agent-skills/.github/skills/azure-pricing
     # cost-optimization excluded — WIP
 ```
 
@@ -72,12 +72,12 @@ target: vscode
 
 dependencies:
   apm:
-    - thomast1906/github-copilot-agent-skills/packages/architect
-    - thomast1906/github-copilot-agent-skills/packages/terraform
-    - thomast1906/github-copilot-agent-skills/packages/diagramming
+    - abdvswmdr/github-copilot-agent-skills/packages/architect
+    - abdvswmdr/github-copilot-agent-skills/packages/terraform
+    - abdvswmdr/github-copilot-agent-skills/packages/diagramming
 ```
 
-Users install everything with: `apm install thomast1906/github-copilot-agent-skills --runtime vscode`
+Users install everything with: `apm install abdvswmdr/github-copilot-agent-skills --runtime vscode`
 
 ---
 
@@ -98,9 +98,9 @@ target: vscode
 
 dependencies:
   apm:
-    - thomast1906/github-copilot-agent-skills/.github/skills/drawio-mcp-diagramming
-    - thomast1906/github-copilot-agent-skills/.github/skills/azure-drawio-mcp-diagramming
-    - thomast1906/github-copilot-agent-skills/.github/skills/excalidraw-mcp-diagramming
+    - abdvswmdr/github-copilot-agent-skills/.github/skills/drawio-mcp-diagramming
+    - abdvswmdr/github-copilot-agent-skills/.github/skills/azure-drawio-mcp-diagramming
+    - abdvswmdr/github-copilot-agent-skills/.github/skills/excalidraw-mcp-diagramming
   mcp:
     - name: drawio
       registry: false
