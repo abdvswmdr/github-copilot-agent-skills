@@ -7,7 +7,20 @@ author: abdvswmdr
 license: MIT
 target: vscode
 
+mcp:
+  - name: orgroam
+    description: "Model Context Protocol server for Org-roam note generation"
+    # This uses a container image; replace with your hosted MCP server if available.
+    command: docker
+    args:
+      - run
+      - -i
+      - --rm
+      - ghcr.io/abdvswmdr/org-roam-mcp:latest
+    allowed: ["*"]
+
 dependencies:
   apm:
     # Agents
     - abdvswmdr/github-copilot-agent-skills/.github/agents/org-agenda-capture.agent.md
+    - abdvswmdr/github-copilot-agent-skills/.github/agents/agent-todo-generator.agent.md
